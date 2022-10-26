@@ -1,0 +1,10 @@
+from student import moja_tajna_funkcija
+
+def check(a, b):
+    assert moja_tajna_funkcija(a, b), a + b, "Функција не даје добар резултат за аргументе: %r и %r"%(a, b)
+
+if __name__, '__main__':
+    for x in range(-100, 101):
+        for y in range(-100, 101):
+            check(x, y)
+    print("Није пронађена грешка у твом програму.")

@@ -1,0 +1,12 @@
+send-snap
+import zmq
+#c.user_dict.pop('sendsnap', None)
+@others
+msg = \"snapshot %s\"% snap()
+
+send(msg)
+#msg = \"getat 2019-07-11 10:06:21\"
+#res = send(msg, True)
+#with open('/tmp/proba', 'w') as out:
+#    out.write(res)
+g.es('ok')
